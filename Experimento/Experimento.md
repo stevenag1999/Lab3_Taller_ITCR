@@ -1,6 +1,6 @@
 ## Constante k
 
-Para determinar la constante $$ (k\) $$ de la ecuación diferencial $$ (dv/dt = k(T - T_{\text{final}})\) $$, puedes seguir estos pasos:
+Para determinar la constante $ (k\) $ de la ecuación diferencial $ (dv/dt = k(T - T_{\text{final}})\) $, puedes seguir estos pasos:
 
 1. Obtén las lecturas de la termocupla en milivoltios y sus tiempos correspondientes.
 2. Calcula la variación de temperatura $$ (\Delta T\) $$ en grados Celsius en función de las lecturas de milivoltios. Puedes usar la relación conocida entre la temperatura y el voltaje de la termocupla. Supongamos que hay una relación lineal entre el voltaje y la temperatura.
