@@ -3,6 +3,8 @@
 Se hizo una recolección de datos sobre los registros de la medición de temperatura cuando se introdujo la termocupla en una botella con agua caliente, se mantuvo registrando datos hasta que el agua disminuyera considerablemente la temperatura, los datos se guardaron en archivo csv. Se adaptó el script para unicamente 
 para esta prueba con el fin de que el rango de registro de datos fuera mas largo.
 
+Se utilizó el nuevo modelo DAS el cual se implementó un MUX de 8bits controlado por la señal del arduino para controlar la escala de los equipos 
+
 ![WhatsApp Image 2023-11-18 at 17 15 03](https://github.com/stevenag1999/Lab3_Taller_ITCR/assets/92649989/781771db-ace9-4ca8-9f45-7d0f769cd0d4)
 
 ## Constante k
