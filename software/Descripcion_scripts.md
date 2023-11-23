@@ -11,3 +11,6 @@ La gestión de los canales y el ADC se realiza en el bucle principal, donde se a
 ### Test arduino
 
 El script del test simula la configuración de un multiplexor (MUX) de 8 entradas mediante tres pines virtuales A, B, y C. El bucle de prueba cambia la configuración del MUX a través de combinaciones de 0 y 1 en estos pines y espera brevemente para simular la frecuencia de muestreo de 5000 Hz. En cada iteración, imprime la configuración actual y el estado del MUX, lo que permite verificar que la salida del MUX cambia según las combinaciones de las entradas A, B, y C. Este enfoque proporciona una simulación simple y efectiva para validar el comportamiento del MUX en condiciones de prueba.
+
+![Captura desde 2023-11-23 03-20-47](https://github.com/stevenag1999/Lab3_Taller_ITCR/assets/92649989/72be9a2c-f4f3-48e8-b486-856f3db65f71)
+
