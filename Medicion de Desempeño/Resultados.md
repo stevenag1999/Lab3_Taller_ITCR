@@ -1,4 +1,3 @@
-Para calcular la tasa de muestreo efectiva (Sampling Rate) y el jitter, puedes seguir los siguientes pasos:
 
 ### Tasa de Muestreo Efectiva:
 
