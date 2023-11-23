@@ -7,3 +7,7 @@ La configuración inicial incluye la inicialización del puerto serial y la conf
 En el bucle principal, se recibe comandos desde la computadora a través del puerto serial, interpretando los bits para determinar los estados de los canales y la escala seleccionada. La función configurarMUX se encarga de ajustar el MUX según la escala seleccionada.
 
 La gestión de los canales y el ADC se realiza en el bucle principal, donde se activa o desactiva el ADC en función de la cantidad de canales y su estado. La interrupción del Timer1 se utiliza para indicar cuando el ADC está listo para realizar una nueva conversión.
+
+### Test arduino
+
+El script del test simula la configuración de un multiplexor (MUX) de 8 entradas mediante tres pines virtuales A, B, y C. El bucle de prueba cambia la configuración del MUX a través de combinaciones de 0 y 1 en estos pines y espera brevemente para simular la frecuencia de muestreo de 5000 Hz. En cada iteración, imprime la configuración actual y el estado del MUX, lo que permite verificar que la salida del MUX cambia según las combinaciones de las entradas A, B, y C. Este enfoque proporciona una simulación simple y efectiva para validar el comportamiento del MUX en condiciones de prueba.
