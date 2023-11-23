@@ -1,8 +1,14 @@
 Las siguiente imagenes muestran los circuitos utilizados para este proyecto, se subdividen en bloques para lograr una mejor visualizacion:
 
-1) BLoque 1 Fase diferencial.
+### 1) BLoque 1 Fase diferencial.
 
-   Esta fase haace la diferenciacion de la salida de la termocupla, con la configuracion de un amplificador diferencial.
+Esta fase hace la diferenciacion de la salida de la termocupla, el circuito es un amplificador operacional diferencial con 4 pares de resistencias de realimentación R1-R4 y dos resistencias R5-R6 para    controlar el ganancial del circuito.
+
+En un amplificador operacional diferencial, el voltaje en el pin de entrada no inversora (V1) se compara con el voltaje en el pin de entrada inversora (V2). La diferencia de voltaje entre estos dos pines es lo que el amplificador operacional diferencial amplifica.
+
+El circuito está configurado de tal manera que cuando el voltaje en V1 es mayor que el voltaje en V2, la salida del amplificador operacional diferencial (S1) será positiva, lo que indicará una conexión entre las terminales pos y neg del amplificador operacional diferencial.
+
+
 
 ![image](https://github.com/stevenag1999/Lab3_Taller_ITCR/assets/79070879/a6003851-1de8-4e4b-80d7-2029be0c9855)
 
