@@ -25,3 +25,8 @@ base de datos. Por medio de un script externo elabore los cálculos necesarios p
 ### 3.3. Documentación
 1. Elabore una nota divulgativa que hable del proceso de diseño y del experimento propuesto acompañado
 de fotografía y gráficos. Posibles medios: medium, hackster.io, youtube, etc.
+
+### 3.4. Presentación de los resultados
+1. Se deberá almacenar el código fuente del software que elaboré (microcontrolador y software del ordenador) en el repositorio del proyecto.
+2. Deberá documentar el diseño final del circuito del hardware con las mejoras. Se debe tener el esquemático segmentado por bloques.
+3. La nota divulgativa debe enlazar el repositorio de Github
