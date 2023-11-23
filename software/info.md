@@ -1,4 +1,4 @@
-### Configurando los BITS DE REGISTRO
+### Configuración de los BITS DE REGISTRO
 
 <img width="728" alt="Captura de pantalla 2023-11-22 a la(s) 20 07 00" src="https://github.com/stevenag1999/Lab3_Taller_ITCR/assets/81390103/c6050cf7-86b5-468e-9645-3c244d7bee21">
 
@@ -28,5 +28,11 @@ counter++
 }
 
 ```
+ISR es un macro que le dice al compilador que lo que sigue es una Interrupción. Y ANALOG_COMP_vect es el vector que dice con cual esta asociada la rutina. Para que todo funcione de manera correcta debemos de habilitar el ACIE(Analog Comparator Interrupt Enable) del ACSR(Analog Comparator Setting Register).
 
 <img width="775" alt="Captura de pantalla 2023-11-22 a la(s) 20 17 35" src="https://github.com/stevenag1999/Lab3_Taller_ITCR/assets/81390103/383d6c79-96a8-427a-b3e6-a49ab34c74db">
+
+
+#Referencias:
+
+- http://www.nongnu.org/avr-libc/user-manual/group__avr__interrupts.html
