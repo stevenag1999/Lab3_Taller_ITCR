@@ -5,7 +5,7 @@ Para determinar la constante k de la ecuación diferencial dv/dt = k(T - T) , pu
 1. Obtén las lecturas de la termocupla en milivoltios y sus tiempos correspondientes.
 2. Calcula la variación de temperatura Delta T en grados Celsius en función de las lecturas de milivoltios. Puedes usar la relación conocida entre la temperatura y el voltaje de la termocupla. Supongamos que hay una relación lineal entre el voltaje y la temperatura.
 3. Calcula la derivada dV/dt en función del tiempo. Puedes usar las lecturas de milivoltios y sus tiempos para estimar esta derivada numéricamente utilizando diferencias finitas.
-4. Estima la constante k al dividir \(\frac{dV}{dt}\) por Delta T.
+4. Estima la constante k al dividir dV/dt por Delta T.
 5. Calcula el promedio de los valores de k obtenidos a lo largo del registro de la termocupla.
 
 ### Pruebas en canal 1
