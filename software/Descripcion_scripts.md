@@ -1,4 +1,4 @@
-### Script Arduino y control de tasa de muestreo
+# Script Arduino y control de tasa de muestreo
 
 Este código Arduino se centra en el control de canales y la configuración de escalas mediante un multiplexor (MUX) para un sistema de adquisición de datos analógicos. La variable cant_canales indica cuántos canales están activos, mientras que ch1 y ch2 representan el estado de dos canales. Se utiliza un array mux_pins para almacenar los pines A, B y C del MUX.
 
@@ -14,3 +14,33 @@ El script del test simula la configuración de un multiplexor (MUX) de 8 entrada
 
 ![Captura desde 2023-11-23 03-20-47](https://github.com/stevenag1999/Lab3_Taller_ITCR/assets/92649989/72be9a2c-f4f3-48e8-b486-856f3db65f71)
 
+# GUI
+
+Esta GUI tiene como objetivo principal la adquisición y visualización en tiempo real de datos provenientes de dos canales diferentes a través de una comunicación serial con un dispositivo Arduino. A continuación, se detallan las funcionalidades clave de la interfaz:
+
+### Librerías ###
+Se utilizan las librerías `tkinter` para la interfaz gráfica, `matplotlib` para la visualización de gráficos, `random` para generar datos simulados, `serial` para la comunicación serial con Arduino, `time` para gestionar retardos, y `csv` para la manipulación de archivos CSV.
+
+### Comunicación Serial ###
+Se establece y configura la comunicación serial con el Arduino, utilizando el puerto `/dev/ttyACM0` a una velocidad de 115200 baudios. También se incluye un procedimiento para resetear el Arduino antes de la adquisición de datos.
+
+### Funciones de los Botones ###
+- **adquirir_datos(canalP):** Función para simular la adquisición de datos de uno o ambos canales, según el parámetro canalP. Los datos adquiridos se almacenan en listas (`datos_canal1` y `datos_canal2`).
+
+- **graficar_datos():** Función para actualizar la gráfica en tiempo real. Dependiendo de las opciones seleccionadas en la interfaz gráfica, grafica los datos del Canal 1, Canal 2 o ambos.
+
+- **almacenar_datos():** Función para almacenar los datos de la sesión en un archivo de texto (`datos.txt`). Recopila información como el autor, fecha, magnitudes físicas y escalas, y los datos de los canales seleccionados.
+
+- **cargar_datos():** Función para cargar y graficar datos previamente almacenados en el archivo `datos.txt`.
+
+- **determinar_comando():** Función que determina el comando a enviar al Arduino según las opciones seleccionadas en la interfaz, como canales activados y escalas.
+
+- **actualizar_informacion():** Función para actualizar la información (escalas) que se enviará al Arduino según las opciones seleccionadas en la interfaz.
+
+### Configuración Inicial y Variables Auxiliares ###
+Se establecen variables iniciales y auxiliares, como el comando de configuración, listas para almacenar datos de los canales, y variables para controlar la activación de los canales.
+
+### Ventanas y Diseño de la GUI ###
+Se configuran los elementos de la interfaz gráfica, incluyendo etiquetas, botones, entradas de texto y checkboxes. También se crea un espacio de graficación utilizando `matplotlib` y se define el diseño general de la ventana principal.
+
+La GUI permite al usuario configurar parámetros, activar/desactivar canales, visualizar datos en tiempo real, almacenar y cargar sesiones de datos. Además, facilita la interacción con el dispositivo Arduino a través de la comunicación serial.
