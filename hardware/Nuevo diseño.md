@@ -26,6 +26,10 @@ Siendo como final la etapa de aislamiento para lograr mantener por fuera tension
 Junto con el optoacoplador 4n25, nos da la facilidad de control sin requerir un circuito muy complejo.
 
 
+Por ultimo, dando lugar al siguiente diagrama de bloques para todo el circuito.
+
+![image](https://github.com/stevenag1999/Lab3_Taller_ITCR/assets/79070879/13602311-e4c4-4a51-a628-2005e9acfd5a)
+
 
 
 
