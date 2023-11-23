@@ -12,6 +12,11 @@ Para ya luego entrar a la fase de escalamiento que ahi es donde entra a trabajar
 ![image](https://github.com/stevenag1999/Lab3_Taller_ITCR/assets/79070879/fb6d9ec8-f0e1-455f-b818-3d7be9f73a67)
 
 
+Ya con esto y el arduino controlando las patillas de seleccion del mux, permite escalar la ganancia de esta etapa.
+
+En la etapa post amplificación se trabaja para preservar la integridad de la señal, permitiendo una transmisión y procesamiento más preciso y fiable de la información analógica.
+
+![image](https://github.com/stevenag1999/Lab3_Taller_ITCR/assets/79070879/a9959931-2b76-4a68-a820-f769623d25c0)
 
 
 
