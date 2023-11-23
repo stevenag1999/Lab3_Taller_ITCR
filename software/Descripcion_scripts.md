@@ -16,20 +16,20 @@ El script del test simula la configuración de un multiplexor (MUX) de 8 entrada
 
 # GUI
 
-Esta GUI tiene como objetivo principal la adquisición y visualización en tiempo real de datos provenientes de dos canales diferentes a través de una comunicación serial con un dispositivo Arduino. A continuación, se detallan las funcionalidades clave de la interfaz:
+Esta GUI tiene como objetivo principal la adquisición y visualización en tiempo real de datos provenientes de dos canales diferentes a través de una comunicación serial con un dispositivo Arduino. Secciones:
 
 ### Librerías ###
-Se utilizan las librerías `tkinter` para la interfaz gráfica, `matplotlib` para la visualización de gráficos, `random` para generar datos simulados, `serial` para la comunicación serial con Arduino, `time` para gestionar retardos, y `csv` para la manipulación de archivos CSV.
+Se utilizan las librerías `tkinter` para la interfaz gráfica, `matplotlib` para la visualización de gráficos, `serial` para la comunicación serial con Arduino, `time` para gestionar retardos, y `csv` para la manipulación de archivos CSV.
 
 ### Comunicación Serial ###
-Se establece y configura la comunicación serial con el Arduino, utilizando el puerto `/dev/ttyACM0` a una velocidad de 115200 baudios. También se incluye un procedimiento para resetear el Arduino antes de la adquisición de datos.
+Se establece y configura la comunicación serial con el Arduino, utilizando el puerto `seleccionado en momento` a una velocidad de 115200 baudios. También se incluye un procedimiento para resetear el Arduino antes de la adquisición de datos.
 
 ### Funciones de los Botones ###
-- **adquirir_datos(canalP):** Función para simular la adquisición de datos de uno o ambos canales, según el parámetro canalP. Los datos adquiridos se almacenan en listas (`datos_canal1` y `datos_canal2`).
+- **adquirir_datos(canalP):** Función para la adquisición de datos de uno o ambos canales, según el parámetro canalP. Los datos adquiridos se almacenan en listas (`datos_canal1` y `datos_canal2`).
 
 - **graficar_datos():** Función para actualizar la gráfica en tiempo real. Dependiendo de las opciones seleccionadas en la interfaz gráfica, grafica los datos del Canal 1, Canal 2 o ambos.
 
-- **almacenar_datos():** Función para almacenar los datos de la sesión en un archivo de texto (`datos.txt`). Recopila información como el autor, fecha, magnitudes físicas y escalas, y los datos de los canales seleccionados.
+- **almacenar_datos():** Función para almacenar los datos de la sesión en un archivo de texto (`datos.txt`). Recopila información como el autor, fecha, magnitudes físicas y escalas, y los datos de los canales seleccionados. Sin embargo para efectos de este desarrollo también se llevó acabo la modificacion para que lo datos se generaran en un csv para post análisis requerido. 
 
 - **cargar_datos():** Función para cargar y graficar datos previamente almacenados en el archivo `datos.txt`.
 
