@@ -7,7 +7,7 @@ La tasa de muestreo efectiva se refiere a la cantidad real de muestras que se to
 ![ggggg](https://github.com/stevenag1999/Lab3_Taller_ITCR/assets/92649989/7bf5956c-cd9b-4c25-90c7-43d6bc859633)
 
 
-El resultado al medir los valores de Ts fue de alrededor de 20ms.
+El resultado al medir los valores de Ts fue de alrededor de 5.5ms.
 
 ### Jitter:
 
