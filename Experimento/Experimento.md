@@ -7,7 +7,6 @@ Se utilizó el nuevo modelo DAS el cual se implementó un MUX de 8bits controlad
 
 ![WhatsApp Image 2023-11-18 at 17 15 03](https://github.com/stevenag1999/Lab3_Taller_ITCR/assets/92649989/5f26724f-af6b-41b6-a80d-d08b9e8933ea)
 
-
 ![WhatsApp Image 2023-11-18 at 17 15 03](https://github.com/stevenag1999/Lab3_Taller_ITCR/assets/92649989/781771db-ace9-4ca8-9f45-7d0f769cd0d4)
 
 ## Constante k
